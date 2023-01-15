@@ -1,4 +1,4 @@
-import { LSXRoot } from './~lsx/lsxdom.js'
+import { LSXRoot } from './lib/lsxdom.js'
 import { List } from './List.js'
 
 LSXRoot("span#root")

@@ -1,5 +1,5 @@
 
-import { Component } from './~lsx/lsxdom.js'
+import { Component } from './lib/lsxdom.js'
 
 export function List () {
     Component("span#root")
