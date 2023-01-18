@@ -1,5 +1,5 @@
 
-import { RootComponent } from './lib/lsxdom.js'
+import { RootComponent } from './lib/lsxdom-build@1.js'
 
 export function Navigation () {
     RootComponent("nav")
@@ -8,7 +8,7 @@ export function Navigation () {
                 `<a href="/" class="logo">
                     <img src='lsx.webp'> <span>LearnScript XML </span>
                 </a>`,
-                "<a href='/lib/lsxdom.js' rel='nofollow' download>Download</a>",
+                "<a href='/lib/lsxdom-build@1.js' rel='nofollow' download>Download</a>",
             "</div>"
         )
     return ""

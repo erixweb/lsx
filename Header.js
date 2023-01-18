@@ -1,4 +1,4 @@
-import { RootComponent } from './lib/lsxdom.js'
+import { RootComponent } from './lib/lsxdom-build@1.js'
 
 export function Header() {
     RootComponent("header")
