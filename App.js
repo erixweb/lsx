@@ -1,13 +1,13 @@
 import { LSXRoot } from './lib/lsxdom.js'
-import { List } from './List.js'
+import { Header } from './Header.js'
+import { Navigation } from './Nav.js'
 
 LSXRoot("span#root")
     .put(
-        `${ List() }`,
-        "xd",
-        "asd"
+        Navigation(),
+        Header()
     )
-    .ev("click", () => {
-        console.log("asd")
-    })
     .styles('display', 'block')
+    .styles('width', '100%')
+    
+    
